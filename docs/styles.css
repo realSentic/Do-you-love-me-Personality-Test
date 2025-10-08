@@ -17,6 +17,7 @@ img {
 #loved-image, #hated-image {
   display: none;
 }
+
 /* Navigation */
 .nav-container {
   display: flex;
@@ -191,4 +192,5 @@ img {
     font-size: 1rem;
   }
 }
+
 
