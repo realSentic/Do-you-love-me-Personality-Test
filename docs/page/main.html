@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Do you love me?</title>
+  <link rel="stylesheet" href="../styles.css">
+  <script src="/index.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="/index.html"><img src="/images/logo.png" alt="SPT Logo"></a>
+      </div>
+      <ul>
+        <li><a href="more.html">More Tests</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="guide.html">Guide</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="card-container">
+    <div class="card active">
+      <h3>Question #1</h3>
+      <p>How do you feel when you see me after a long day?</p>
+      <button class="btn" data-value="love">Excited and happy</button>
+      <button class="btn" data-value="not">Neutral, it’s just another day</button>
+      <button class="btn" data-value="not">Surprised, like “oh hey, you again”</button>
+      <button class="btn" data-value="love">I secretly scream inside (the good kind)</button>
+    </div>
+
+    <div class="card">
+      <h3>Question #2</h3>
+      <p>When I text you, how fast do you reply?</p>
+      <button class="btn" data-value="love">Instantly.. I’ve been waiting!</button>
+      <button class="btn" data-value="not">After a few minutes</button>
+      <button class="btn" data-value="not">After a few hours</button>
+      <button class="btn" data-value="not">I forget sometimes..</button>
+    </div>
+
+    <div class="card">
+      <h3>Question #3</h3>
+      <p>If I’m sad, what do you usually do?</p>
+      <button class="btn" data-value="love">Comfort you immediately</button>
+      <button class="btn" data-value="love">Ask what's wrong but don't know what to say</button>
+      <button class="btn" data-value="not">Change the topic</button>
+      <button class="btn" data-value="not">Panic and send memes</button>
+    </div>
+
+    <div class="card">
+      <h3>Question #4</h3>
+      <p>When we argue, what’s your first thought?</p>
+      <button class="btn" data-value="love">"I don't want to lose them."</button>
+      <button class="btn" data-value="not">"I'll prove i'm right."</button>
+      <button class="btn" data-value="not">"Why are we even fighting?"</button>
+      <button class="btn" data-value="love">"I hope we'll be okay."</button>
+    </div>
+
+    <div class="card">
+      <h3>Question #5</h3>
+      <p>If we were stuck on an island together, what’s your role?</p>
+      <button class="btn" data-value="love">Protect you and build a shelter</button>
+      <button class="btn" data-value="love">Complain but still help</button>
+      <button class="btn" data-value="not">Eat the snacks first</button>
+      <button class="btn" data-value="not">Let you do all the work</button>
+    </div>
+
+    <div class="card">
+      <h3>Question #6</h3>
+      <p>Which word best describes how you feel about me?</p>
+      <button class="btn" data-value="love">Love</button>
+      <button class="btn" data-value="not">Confused</button>
+      <button class="btn" data-value="not">Crazy</button>
+      <button class="btn" data-value="love">Funny</button>
+    </div>
+
+    <div class="card">
+      <h3>Question #7</h3>
+      <p>If I disappeared for a week without saying anything, what would you do?</p>
+      <button class="btn" data-value="love">Go looking for you</button>
+      <button class="btn" data-value="love">Spam your messages</button>
+      <button class="btn" data-value="not">Go out and party</button>
+      <button class="btn" data-value="not">Assume you joined a cult</button>
+    </div>
+
+    <div class="card result">
+      <h3 id="text-result">You are:</h3>
+      <img id="loved-image" src="../images/loved.png" alt="Loved!">
+      <img id="hated-image" src="../images/hated.png" alt="Hated!">
+      <p id="result-description">placeholder.</p>
+      <a class=btn href="index.html">Back to Quiz</a>
+    </div>
+  </div>
+</body>
+</html>
